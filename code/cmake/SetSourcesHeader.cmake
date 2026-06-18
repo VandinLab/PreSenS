@@ -1,0 +1,25 @@
+set(headers
+        include/data/data_parser.h
+        include/data/csv_parser.h
+        include/coresets/coreset.h
+        include/coresets/uniform_sampling.h
+        include/coresets/sensitivity_sampling.h
+        include/clustering_utils/kmeans.h
+        include/clustering_utils/clustering.h
+        include/utils/candidate_generator.h
+        include/utils/random.h
+        include/utils/stop_watch.h
+)
+
+set(sources
+        source/data/csv_parser.cpp
+        source/coresets/coreset.cpp
+        source/coresets/uniform_sampling.cpp
+        source/coresets/sensitivity_sampling.cpp
+        source/clustering_utils/kmeans.cpp
+        source/clustering_utils/clustering.cpp
+        source/utils/candidate_generator.cpp
+        source/utils/random.cpp
+        source/utils/stop_watch.cpp
+        source/main.cpp
+)
